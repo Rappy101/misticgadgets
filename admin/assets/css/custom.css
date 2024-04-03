@@ -1,0 +1,64 @@
+.select2-container .select2-selection--single {
+
+    height: 38px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection_rendered {
+    line-height: 38px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection___arrow {
+    height: 38px !important;
+}
+
+
+.quantityInput{
+
+
+    width: 50px !important;
+    padding: 6px 3px;
+    text-align: center;
+    border: 1px solid #cfb1b1;
+    outline: 0;
+    margin-right: 1px;
+}
+#notificationList {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px; /* Set maximum height for the notification list */
+    overflow-y: auto; /* Allow vertical scrolling when content overflows */ 
+    border-radius: 10px;
+}
+
+/* Customize the scrollbar */
+#notificationList::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Handle */
+#notificationList::-webkit-scrollbar-thumb {
+    background: #5e5e5e; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Roundness of the scrollbar handle */
+}
+
+/* Handle on hover */
+#notificationList::-webkit-scrollbar-thumb:hover {
+    background: #fff598; /* Color of the scrollbar handle on hover */
+}
+
+
+#notificationList li {
+    padding: 10px;
+    border: 1px solid transparent; /* Ensure a transparent border */
+    margin-bottom: 5px;
+}
+
+#notificationList li.out-of-stock {
+    background-color: #f8d7da; /* Red background color for out of stock */
+    border-color: #f5c6cb;
+}
+
+#notificationList li.low-stock {
+    background-color: #ffeeba; /* Yellow background color for low stock */
+    border-color: #ffc107;
+}
